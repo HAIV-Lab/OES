@@ -1,0 +1,75 @@
+<!-- <div style="
+  max-width: calc(100% - {{ .Get "margin" | default "4rem" }});
+  margin: 0 auto;
+  padding: 0 {{ .Get "padding" | default "1rem" }};
+">
+  {{ .Inner }}
+</div> -->
+
+
+<!-- <div style="
+  max-width: 100vw;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -40vw;
+  margin-right: -60vw;
+  overflow: hidden;
+  text-align: center;
+">
+  {{ .Inner }}
+</div> -->
+
+<!-- <div style="
+  max-width: calc(100vw - {{ .Get "margin" | default "120px" }});
+  width: calc(100vw - {{ .Get "margin" | default "120px" }});
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: calc(-50vw + {{ .Get "margin" | default "120px" }}/2);
+  margin-right: calc(-50vw + {{ .Get "margin" | default "120px" }}/2);
+  overflow: hidden;
+  {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
+">
+  {{ .Inner | markdownify}}
+</div> -->
+
+<div style="
+  max-width: calc(100vw - {{ .Get "margin" | default "120px" }});
+  width: calc(100vw - {{ .Get "margin" | default "120px" }});
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: calc(-50vw + {{ .Get "margin" | default "120px" }}/2);
+  margin-right: calc(-50vw + {{ .Get "margin" | default "120px" }}/2);
+  {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
+">
+  {{ .Inner | markdownify | safeHTML }}
+</div>
+
+<!-- <div class="fullwidth-container" 
+     style="{{ with .Get "bg" }}background: {{ . }};{{ end }}
+            {{ with .Get "margin" }}--margin: {{ . }};{{ end }}">
+  <div class="fullwidth-content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
+
+<style>
+.fullwidth-container {
+  --margin: 120px;
+  width: 100vw;
+  max-width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 0 calc(-50vw + var(--margin)/2);
+  padding: 1rem 0;
+}
+.fullwidth-content {
+  max-width: calc(100vw - var(--margin));
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+</style> -->
