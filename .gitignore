@@ -1,0 +1,6 @@
+.hugo_build.lock
+go.sum
+hugo_stats.json
+public/
+resources/
+content/people/notused

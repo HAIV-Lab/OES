@@ -40,9 +40,10 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} <a href="https://haivlab.wixsite.com/home" target="_blank">HAIV Lab</a>, Huazhong University of Science and Technology and <a href="https://www.pcl.ac.cn" target="_blank">Pengcheng Laboratory</a>. All rights reserved.'
+    powered_by: false
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

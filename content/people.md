@@ -54,9 +54,9 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-            <img src="/test_temp/xx.png" style="width: 160px; height: 180px; object-fit: cover;">
+            <img src="/people/xx.png" style="width: 160px; height: 180px; object-fit: cover;">
             <h3 style="margin: 0 0 10px 0">Xiang Xiang</h3>
-            <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
+            <p style="margin: 0; color: #000">Huazhong University of Science and Technology<br>Pengcheng Laboratory</p>
           </div>
 
           <!-- Member 2 -->
@@ -66,7 +66,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/xz.jpg" style="
+           <img src="/people/xz.jpg" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -85,7 +85,7 @@ sections:
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
 
-           <img src="/test_temp/dy.jpg" style="
+           <img src="/people/dy.jpg" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -103,7 +103,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/zqh.jpg" style="
+           <img src="/people/zqh.jpg" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -121,7 +121,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/lyf.jpg" style="
+           <img src="/people/lyf.jpg" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -139,7 +139,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/KeChen.png" style="
+           <img src="/people/KeChen.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -147,7 +147,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */
            ">
             <h3 style="margin: 0 0 10px 0">Ke Chen</h3>
-            <p style="margin: 0; color: #000;"> Peng Cheng Laboratory</p>
+            <p style="margin: 0; color: #000;"> Pengcheng Laboratory</p>
           </div>
 
           <!-- Member 7 -->
@@ -158,7 +158,7 @@ sections:
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
 
-           <img src="/test_temp/flower.jpg" style="
+           <img src="/people/flower.jpg" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -166,7 +166,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */
            ">
             <h3 style="margin: 0 0 10px 0">Qingfang Zheng</h3>
-            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
+            <p style="margin: 0; color: #000;">Pengcheng Laboratory</p>
           </div>  
 
           <!-- Member 8 -->
@@ -176,7 +176,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/wyw.png" style="
+           <img src="/people/wyw.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -184,7 +184,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
             <h3 style="margin: 0 0 10px 0">Yaowei Wang</h3>
-            <p style="margin: 0; color: #000;">Harbin Institute of Technology-ShenZhen, Peng Cheng Laboratory</p>
+            <p style="margin: 0; color: #000;">Harbin Institute of Technology-ShenZhen<br>Pengcheng Laboratory</p>
           </div>
 
           <!-- Member 9 -->
@@ -194,7 +194,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/flower.jpg" style="
+           <img src="/people/cxl.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -202,7 +202,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */
            ">
             <h3 style="margin: 0 0 10px 0">Xilin Chen</h3>
-            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
+            <p style="margin: 0; color: #000;">Institute of Computing Technology, Chinese Academy of Sciences</p>
           </div>
 
            <!-- Member 10 -->
@@ -212,7 +212,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="/test_temp/gw.png" style="
+           <img src="/people/gw.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -220,7 +220,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
             <h3 style="margin: 0 0 10px 0">Wen Gao</h3>
-            <p style="margin: 0; color: #000;">Peking University, Peng Cheng Laboratory</p>
+            <p style="margin: 0; color: #000;">Peking University<br>Pengcheng Laboratory</p>
           </div>
         </div>
         {{< /test >}}
