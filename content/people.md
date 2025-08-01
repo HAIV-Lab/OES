@@ -139,7 +139,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/OES/KeChen.png" style="
+           <img src="/OES/ck.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
