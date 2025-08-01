@@ -35,9 +35,9 @@ sections:
       #title: '<span style="font-size: 24px;">Team Member</span>'
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
-        {{< center >}}
-        ## Team Member
-        {{< /center >}}
+        
+        ## 🧑‍🤝‍🧑 Team Member
+        
 
         <!-- markdownlint-disable -->
         <div class="team-grid" style="
@@ -222,6 +222,71 @@ sections:
             <h3 style="margin: 0 0 10px 0">Wen Gao</h3>
             <p style="margin: 0; color: #000;">Peking University<br>Pengcheng Laboratory</p>
           </div>
+
         </div>
+
+        
+        ## 🙏 Special Thanks
+        
+        We would like to express our special gratitude to the following contributors who have also made significant contributions to this project:
+
+        <!-- markdownlint-disable -->
+        <div class="team-grid" style="
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+          margin-top: 30px;
+        "> 
+
+          <!-- Member 1 -->
+          <div class="member-card" style="
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          ">
+            <h3 style="margin: 0 0 10px 0">Zhipeng Chen</h3>
+            <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="member-card" style="
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
+          ">
+            <h3 style="margin: 0 0 10px 0">Jiaxin Dai</h3>
+            <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="member-card" style="
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
+          ">
+            <h3 style="margin: 0 0 10px 0">Hanlin Li</h3>
+            <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="member-card" style="
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
+          ">
+            <h3 style="margin: 0 0 10px 0">Tiantian Wang</h3>
+            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
+          </div>
+
+        </div>
+
         {{< /test >}}
+
+        
+
+
 ---
