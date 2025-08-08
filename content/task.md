@@ -89,8 +89,17 @@ sections:
         ### Class Incremental Learning (CIL)
         The rapid advancement of remote sensing generates vast amounts of high-quality images daily, necessitating models to recognize novel classes in open-world scenarios. However, existing CIL benchmarks in remote sensing are constrained by limited category diversity, restricted coarse-grained coverage, and uniform data scales, inadequately capturing real-world complexities. To address these limitations, we evaluate existing CIL methods using three benchmarks:
         - **Random**, which follows the widely-used CIL setting and randomly assign classes to 10 sessions equally.
+        | ![random_resnet](/OES/random_resnet.jpg) | ![random_ptm](/OES/random_ptm.jpg) |
+        |:-----------------:|:----------------:|
+
         - **Coarse**, setting each session to contain fine classes of one coarse category to simulate the continuous learning from data captured by different types of dedicated satellites by the model. We divide all the classes into 10 coarse categories corresponding to 10 sessions. The detailed information of the dataset split is defined in `./sub-dataset1-RGB-domain1/CIL_split/CIL_coarse_split.json`.
+        | ![coarse_resnet](/OES/coarse_resnet.jpg) | ![coarse_ptm](/OES/coarse_ptm.jpg) |
+        |:-----------------:|:----------------:|
+
         - **Scale**, which aims to replicate the continual process from large to small scales. The 10 sessions are evenly distributed categories based on a progression from large to small scales. The detailed information of the dataset split is defined in `./sub-dataset1-RGB-domain1/CIL_split/CIL_scale_split.json`.
+        | ![scale_resnet](/OES/scale_resnet.jpg) | ![scale_ptm](/OES/scale_ptm.jpg) |
+        |:-----------------:|:----------------:|
+
         ### Domain-Incremental Learning (DIL)
         To assess the model's adaptability to data from different domains, we benchmark DIL on OES. We select 50 categories containing the same semantic classes from RGB satellite (**Sub-dataset 1**), RGB aerial (**Sub-dataset 3**), MSRGB (**Sub-dataset 4**) and IR images (**Sub-dataset 5**). 
         ### Coarse-to-Fine Few-shot Class-Incremental Learning (C2FSCIL)
