@@ -50,11 +50,11 @@ sections:
         ## 🎉 News
         [08/2025] 🔥 The OES dataset will be presented at the [Low-Altitude Intelligent Perception Computing and Applications Forum of China Multimedia 2025](https://haiv-lab.github.io/low-altitude/)
 
-        [08/2025] 🔥 The OES dataset is available on kaggle.
+        [08/2025] 🔥 The OES dataset is available on [kaggle](https://www.kaggle.com/datasets/xiangexiang/openearthsensing-oes)
 
-        [07/2025] 🔥 The Second version of the OES paper is available on arXiv
+        [07/2025] 🔥 The Second version of the OES paper is available on [arXiv](https://arxiv.org/abs/2502.20668v2)
 
-        [02/2025] 🔥 The first version of the OES paper is available on arXiv.
+        [02/2025] 🔥 The first version of the OES paper is available on [arXiv](https://arxiv.org/abs/2502.20668v1)
         {{< /test >}}
       design:
         spacing:
