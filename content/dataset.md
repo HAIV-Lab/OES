@@ -9,12 +9,12 @@ design:
 # Note: `username` refers to the user's folder name in `content/authors/`
 
 # Page sections
-The dataset is downloadable at [Kaggle](https://www.kaggle.com/datasets/xiangexiang/openearthsensing-oes) and please cite our [paper](https://arxiv.org/abs/2502.20668v2).
 sections:
   - block: markdown
     content:
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
+    The dataset is downloadable at [Kaggle](https://www.kaggle.com/datasets/xiangexiang/openearthsensing-oes) and please cite our [paper](https://arxiv.org/abs/2502.20668v2).
         ## Sub-dataset 1
         The **Sub-dataset 1** contains 75,707 images with 189 classes, which is the largest and main sub-dataset. The images in **Sub-dataset 1** are collected from WHU-RS19, NWPU-RESISC45, RSD46-WHU, AID, MillionAID, MLRSNet, RSI-CB256, BigEarthNet, fMoW, TreeSatAI, FAIR1M, FGSC-23, FGSCR-42 and NaSC-TG2. The Class Incremental Learning (CIL) is mainly benchmarked in this sub-dataset. The file structure of the dataset is as follows:
         ```text
