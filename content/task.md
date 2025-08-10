@@ -108,6 +108,8 @@ sections:
         In C2FSCIL, we provide the model with all training samples accompanied by coarse labels in the base session, including 10 coarse-grained classes and 189 fine-grained classes. In the subsequent incremental sessions, we introduce samples with fine labels for each of the 10 coarse classes, supplying only 5 samples per class at each session, which is consistent with the few-shot setting. The initial training phase learns all 10 coarse classes, while each subsequent incremental phase introduces 20 fine-grained classes.
         ![C2FSCIL](C2FSCIL.png)
 
+        If you develop your own algorithms to test on OES, please consider buildin upon [OpenHAIV](http://haiv-lab.github.io/openhaiv), an open-source framework that we use to perform the above tasks for open-world sensing. 
+
         {{< /test >}}
     design:
       spacing:
