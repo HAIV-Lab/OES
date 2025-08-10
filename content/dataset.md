@@ -9,6 +9,7 @@ design:
 # Note: `username` refers to the user's folder name in `content/authors/`
 
 # Page sections
+The dataset is downloadable at [Kaggle](https://www.kaggle.com/datasets/xiangexiang/openearthsensing-oes) and please cite our [paper](https://arxiv.org/abs/2502.20668v2).
 sections:
   - block: markdown
     content:
