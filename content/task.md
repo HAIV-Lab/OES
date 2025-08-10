@@ -34,6 +34,9 @@ sections:
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
         <style>code {font-family: monospace;background-color: #f0f0f0;padding: 0.2em 0.4em;border-radius: 3px;color: #c7254e;}code::before, code::after {content: none !important;}</style>
+
+        If you develop your own algorithms to test on OES, please consider buildin upon [OpenHAIV](http://haiv-lab.github.io/openhaiv), an open-source framework that we use to perform the above tasks for open-world sensing.
+      
         ## Full-spectrum Out-of-Distribution (OOD) Detection
         ### Semantic Shift OOD Detection & OSR
         Recent work highlights a strong correlation between OOD detection and OSR in both settings and performance. Both tasks detect new categories with shifted semantics, while OSR also requires maintaining in-distribution (ID) accuracy. OES supports evaluation of a model's ability to handle semantic shifts. Unlike existing remote sensing benchmarks that randomly split ID and OOD samples, OES consider the semantic shift degree between coarse and fine classes, aligning the setup with real-world deployment scenarios.
