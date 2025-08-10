@@ -7,11 +7,11 @@ main:
   # - name: Home
   #   url: /
   #   weight: 10
-  - name: Highlights
-    url: /#highlights
-    weight: 11
+  # - name: Highlights
+  #   url: /#highlights
+  #   weight: 11
   - name: Overview
-    url: /#overview
+    url: /
     weight: 11
   - name: Dataset
     url: dataset/
@@ -28,6 +28,7 @@ main:
   # - name: Teaching
   #   url: teaching/
   #   weight: 40
-  - name: Citation
-    url: /#citation
+  - name: OpenHAIV
+    # url: /#citation
+    url: https://haiv-lab.github.io/openhaiv/
     weight: 40
