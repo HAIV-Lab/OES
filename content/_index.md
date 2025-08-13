@@ -50,7 +50,7 @@ sections:
         ## 🎉 News
         [08/2025] 🔥 The OES dataset will be formally released at the [Low-Altitude Intelligent Sensing Forum](https://haiv-lab.github.io/low-altitude/) of [ChinaMM 2025](https://ccf.org.cn/ChinaMM2025)
 
-        [08/2025] 🔥 The OES dataset is available on [Kaggle](https://www.kaggle.com/datasets/xiangexiang/openearthsensing-oes)
+        [08/2025] 🔥 The OES dataset is available on [Kaggle](https://www.kaggle.com/datasets/xiangexiang/openearthsensing-oes) ~10GB
 
         [07/2025] 🔥 The Second version of the OES paper is available on [arXiv](https://arxiv.org/abs/2502.20668v2)
 
