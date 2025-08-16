@@ -47,6 +47,9 @@ sections:
         
         - **Training/Test Sets**: Organized in `./sub-dataset1-RGB-domain1/ID/train` and `./sub-dataset1-RGB-domain1/ID/test`.
 
+        | ![ood-clip-sub1](ood-clip-sub1.png) | ![ood-uni-sub1](ood-uni-sub1.png) |
+        |:-----------------:|:----------------:|
+
         ### Covariate Shift OOD Detection & Generalization
         Covariate shift OOD detection emphasizes robustness to covariate shifts, also referred to as full-spectrum OOD detection, where the ID data remain semantically consistent, while covariates vary. Given the practical needs of remote sensing, we focus on the following shifts:
         - **Resampling bias**, requiring model generalization across varying acquisition parameters (angle, height, resolution, time) within the same modality; 
@@ -63,6 +66,9 @@ sections:
         - **`OOD-Hard`**: 47 classes from Sub-Dataset 1 (significant shifts).
         - **`Bias-OOD`**: 22 classes from Sub-Dataset 2 (shifts). Path: `./sub-dataset2-RGB-domain2/OOD/test`.
         - **`SUN`**: As above.
+
+        | ![ood-clip-sub2](ood-clip-sub2.png) | ![ood-uni-sub2](ood-uni-sub2.png) |
+        |:-----------------:|:----------------:|
 
         #### 2. Aerial Modality-Shift Scenario
         - **ID Test Set**: Aerial data from Sub-Dataset 3 (`./sub-dataset3-Aerial-domain3/ID/test`).
@@ -87,6 +93,9 @@ sections:
         ##### OOD Datasets:
         - **`Bias-OOD`**: 26 classes from Sub-Dataset 5. Path: `./sub-dataset5-IR-domain5/OOD/test`.
         - **`SUN`**: As above.
+
+        | ![ood-clip-sub345](ood-clip-sub345.png) | ![ood-uni-sub1](ood-uni-sub345.png) |
+        |:-----------------:|:----------------:|
 
         ## Incremental Learning
         ### Class Incremental Learning (CIL)
